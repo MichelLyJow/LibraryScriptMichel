@@ -49,6 +49,14 @@ Tabs.Main:AddButton({
     end
 })
 
+-- Tombol Exec 3: Michel x +1 Strength to Grow Your Arm
+Tabs.Main:AddButton({
+    Title = "Michel x +1 Strength to Grow Your Arm",
+    Callback = function()
+        CloseAllGUI()
+        loadstring(game:HttpGet('https://https://pastefy.app/ULWzrmK9/raw'))()
+    end
+})
 -- Toggle Button Management
 if game:GetService("CoreGui"):FindFirstChild("FluentToggleGui") then
     game:GetService("CoreGui").FluentToggleGui:Destroy()

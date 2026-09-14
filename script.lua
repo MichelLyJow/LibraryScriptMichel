@@ -10,7 +10,6 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.LeftControl
 })
 
--- Kustomisasi Tema Hitam Putih (Monochrome)
 Fluent:SetTheme({
     Background = Color3.fromRGB(20, 20, 20),
     Secondary = Color3.fromRGB(30, 30, 30),
@@ -23,7 +22,6 @@ local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "home" })
 }
 
--- Toggle Button Management Cleanup Function
 local function CloseAllGUI()
     if game:GetService("CoreGui"):FindFirstChild("FluentToggleGui") then
         game:GetService("CoreGui").FluentToggleGui:Destroy()
@@ -31,7 +29,6 @@ local function CloseAllGUI()
     Fluent:Destroy()
 end
 
--- Tombol Exec 1: Michel Universal
 Tabs.Main:AddButton({
     Title = "Michel universal",
     Callback = function()
@@ -40,7 +37,6 @@ Tabs.Main:AddButton({
     end
 })
 
--- Tombol Exec 2: Michel x Fire a Lucky Block
 Tabs.Main:AddButton({
     Title = "Michel x Fire a Lucky Block",
     Callback = function()
@@ -49,7 +45,6 @@ Tabs.Main:AddButton({
     end
 })
 
--- Tombol Exec 3: Michel x +1 Strength to Grow Your Arm
 Tabs.Main:AddButton({
     Title = "Michel x +1 Strength to Grow Your Arm",
     Callback = function()
@@ -58,7 +53,14 @@ Tabs.Main:AddButton({
     end
 })
 
--- Toggle Button Management
+Tabs.Main:AddButton({
+    Title = "Michel x Ride A Pet",
+    Callback = function()
+        CloseAllGUI()
+        loadstring(game:HttpGet('https://pastefy.app/lMbZWlJO/raw'))()
+    end
+})
+
 if game:GetService("CoreGui"):FindFirstChild("FluentToggleGui") then
     game:GetService("CoreGui").FluentToggleGui:Destroy()
 end

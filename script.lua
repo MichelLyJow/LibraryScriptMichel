@@ -62,7 +62,7 @@ Tabs.Main:Button({
     Title = "Michel x +1 Strength to Grow Your Arm",
     Callback = function()
         CloseAllGUI()
-        loadstring(game:HttpGet('https://pastefy.app/ULWzrmK9/raw'))()
+        loadstring(game:HttpGet('https://pastefy.app/iSmErYrK/raw'))()
     end
 })
 

@@ -41,7 +41,7 @@ Tabs.Main:AddButton({
     Title = "Michel x Fire a Lucky Block",
     Callback = function()
         CloseAllGUI()
-        loadstring(game:HttpGet('https://pastefy.app/xSe81Fmr/raw'))()
+        loadstring(game:HttpGet('https://pastefy.app/xee7Iw0f/raw'))()
     end
 })
 

@@ -74,6 +74,14 @@ Tabs.Main:Button({
     end
 })
 
+Tabs.Main:Button({
+    Title = "Michel x Climb and Drop a Lucky Block",
+    Callback = function()
+        CloseAllGUI()
+        loadstring(game:HttpGet('https://pastefy.app/1DVBWRVr/raw'))()
+    end
+})
+
 -- FLOATING TOGGLE BUTTON
 if game:GetService("CoreGui"):FindFirstChild("WindUIToggleGui") then
     game:GetService("CoreGui").WindUIToggleGui:Destroy()

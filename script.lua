@@ -70,7 +70,7 @@ Tabs.Main:Button({
     Title = "Michel x Ride A Pet",
     Callback = function()
         CloseAllGUI()
-        loadstring(game:HttpGet('https://pastefy.app/dcM12ybM/raw'))()
+        loadstring(game:HttpGet('https://pastefy.app/SfBFjMfq/raw'))()
     end
 })
 

@@ -41,15 +41,6 @@ local function CloseAllGUI()
     end
 end
 
--- TABS MAIN (BUTTONS)
-Tabs.Main:Button({
-    Title = "Michel universal",
-    Callback = function()
-        CloseAllGUI()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/MichelLyJow/Michel-script-/refs/heads/main/Script.lua'))()
-    end
-})
-
 Tabs.Main:Button({
     Title = "Michel x Fire a Lucky Block",
     Callback = function()

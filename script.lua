@@ -36,3 +36,8 @@ LibraryTab:AddButton("Michel x Climb and Drop a Lucky Block", function()
     loadstring(game:HttpGet('https://pastefy.app/1DVBWRVr/raw'))()
     Window:Destroy()
 end)
+
+LibraryTab:AddButton("Michel x Kick a Penguin", function()
+    loadstring(game:HttpGet('https://pastefy.app/7C3a9CmN/raw'))()
+    Window:Destroy()
+end)

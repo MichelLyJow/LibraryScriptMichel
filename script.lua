@@ -2,7 +2,7 @@ local MichelUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mich
 
 local Window = MichelUi:CreateWindow({
     Title = "Michel Script x Library",
-    Author = "MicheLyJow",
+    Author = "MicheLyJow [FREE]",
     Icon = "rbxthumb://type=Asset&id=102030546943731&w=420&h=420"
 })
 
